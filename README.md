@@ -1,4 +1,4 @@
-1.Git Basics<br/>
+0.Git Basics<br/>
 =================
 New to me:<br/>
  + There are three main VCS (Version Control System).<br/>
@@ -28,7 +28,7 @@ POST: create a new resource. POST requests usually carry a payload that specifie
 PUT: update an existing resource. The payload may contain the updated data for the resource.<br/>
 DELETE: delete an existing resource.<br/>
 
-Post = Put + Delete (иногда)<br/>
+Post = Put + Delete (sometimes)<br/>
 
 HEAD: this is similar to GET, but without the message body. It's used to retrieve the server headers <br/>
 for a particular resource, generally to check if the resource has changed, via timestamps.<br/>
@@ -47,7 +47,13 @@ To reduce connection-establishment delays, HTTP/1.1 introduced persistent connec
 that stay open until the client closes them.<br/>
 	
 Surprise me:<br/>
- + Post = Put + Delete (иногда)<br/>
+ + Post = Put + Delete (sometimes)<br/>
 
 I intend to use in the future:<br/>
  - EVERYTHING
+
+![task_linux_cli](img/1_Linux_task_linux_cli/Quiz_Number_1.png)
+![task_linux_cli](img/1_Linux_task_linux_cli/Quiz_Number_2.png)
+![task_linux_cli](img/1_Linux_task_linux_cli/Quiz_Number_3.png)
+![task_linux_cli](img/1_Linux_task_linux_cli/Quiz_Number_4.png)
+

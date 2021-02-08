@@ -14,7 +14,7 @@ I intend to use in the future:<br/>
 
 ![Git Basics](img/1_Git_Basics/Version_Control_with_Git.png)
 ![Git Basics](img/1_Git_Basics/Learn_Git_Branching_2.png)
-![Git Basics](https://github.com/AlexeyBondziuk/Test/blob/main/img/1_Git_Basics/Learn_Git_Branching.jpg)
+![Git Basics](img/1_Git_Basics/Version_Control_with_Git.png)
 
 
 1.Linux CLI, HTTP<br/>

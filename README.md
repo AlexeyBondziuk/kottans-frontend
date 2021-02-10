@@ -43,7 +43,7 @@ I intend to use in the future:<br/>
 
 1.Linux CLI, HTTP<br/>
 =================
- + New to me:<br/>
+New to me:<br/>
  + GET: fetch an existing resource. The URL contains all the necessary information the server needs to locate<br/> 
 and return the resource.<br/>
 

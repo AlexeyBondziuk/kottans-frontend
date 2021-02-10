@@ -16,9 +16,9 @@
 - [ ] Website Performance Optimization
 - [ ] Friends App - real project!
 
-<details><summary><br/>
-# 0.Git Basics<br/>
-</summary><br/>
+0.Git Basics<br/>
+=================
+
 New to me:<br/>
  + There are three main VCS (Version Control System).<br/>
  + Git, Subversion, Mercurial.<br/>
@@ -31,10 +31,10 @@ different versions of document.<br/>
 I intend to use in the future:<br/>
  - EVERYTHING
 
+<details><summary>**Screeenshots**</summary>
 ![Git Basics](img/0_Git_Basics/Version_Control_with_Git.png)
 ![Git Basics](img/0_Git_Basics/Learn_Git_Branching_2.png)
 ![Git Basics](img/0_Git_Basics/Version_Control_with_Git.png)
-
 </details>
 
 

@@ -32,6 +32,7 @@ I intend to use in the future:<br/>
  - EVERYTHING
 
 <details><summary><strong>Screeenshots</strong></summary>
+
 ![Git Basics](img/0_Git_Basics/Version_Control_with_Git.png)
 
 ![Git Basics](img/0_Git_Basics/Learn_Git_Branching_2.png)

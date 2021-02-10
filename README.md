@@ -16,9 +16,9 @@
 - [ ] Website Performance Optimization
 - [ ] Friends App - real project!
 
-<details><summary>
-# 0.Git Basics
-</summary>
+<details><summary><br/>
+# 0.Git Basics<br/>
+</summary><br/>
 New to me:<br/>
  + There are three main VCS (Version Control System).<br/>
  + Git, Subversion, Mercurial.<br/>

@@ -74,11 +74,19 @@ Surprise me:<br/>
  + Post = Put + Delete (sometimes)<br/>
 
 I intend to use in the future:<br/>
+<<<<<<< HEAD
  - EVERYTHING<br/>
 
 <details><summary><strong>Screeenshots</strong></summary>
 <br/>
+||||||| cd6aa83
+ - EVERYTHING
+=======
+ - EVERYTHING<br/>
+>>>>>>> c18fca5fa8a773c3805891ef3c571321d15fe4f8
 
+<details><summary><strong>Screeenshots</strong></summary>
+<br/>
 ![task_linux_cli](img/1_Linux_task_linux_cli/Quiz_Number_1.png)
 
 ![task_linux_cli](img/1_Linux_task_linux_cli/Quiz_Number_2.png)

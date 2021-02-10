@@ -43,31 +43,31 @@ I intend to use in the future:<br/>
 
 1.Linux CLI, HTTP<br/>
 =================
-New to me:<br/>
-GET: fetch an existing resource. The URL contains all the necessary information the server needs to locate<br/> 
+ + New to me:<br/>
+ + GET: fetch an existing resource. The URL contains all the necessary information the server needs to locate<br/> 
 and return the resource.<br/>
 
-POST: create a new resource. POST requests usually carry a payload that specifies the data for the new resource.<br/>
+ + POST: create a new resource. POST requests usually carry a payload that specifies the data for the new resource.<br/>
 
-PUT: update an existing resource. The payload may contain the updated data for the resource.<br/>
-DELETE: delete an existing resource.<br/>
+ + PUT: update an existing resource. The payload may contain the updated data for the resource.<br/>
+ + DELETE: delete an existing resource.<br/>
 
-Post = Put + Delete (sometimes)<br/>
+ + Post = Put + Delete (sometimes)<br/>
 
-HEAD: this is similar to GET, but without the message body. It's used to retrieve the server headers <br/>
+ + HEAD: this is similar to GET, but without the message body. It's used to retrieve the server headers <br/>
 for a particular resource, generally to check if the resource has changed, via timestamps.<br/>
 
-TRACE: used to retrieve the hops that a request takes to round trip from the server. Each intermediate <br/>
+ + TRACE: used to retrieve the hops that a request takes to round trip from the server. Each intermediate <br/>
 proxy or gateway would inject its IP or DNS name into the Via header field. This can be used for diagnostic <br/>
 purposes.<br/>
 
-OPTIONS: used to retrieve the server capabilities. On the client-side, it can be used to modify the request <br/>
+ + OPTIONS: used to retrieve the server capabilities. On the client-side, it can be used to modify the request <br/>
 based on what the server can support.<br/>
 
-In HTTP/1.0, all connections were closed after a single transaction. So, if a client wanted to request <br/>
+ + In HTTP/1.0, all connections were closed after a single transaction. So, if a client wanted to request <br/>
 three separate images from the same server, it made three separate connections to the remote host.<br/>
 
-To reduce connection-establishment delays, HTTP/1.1 introduced persistent connections, long-lived connections<br/> 
+ + To reduce connection-establishment delays, HTTP/1.1 introduced persistent connections, long-lived connections<br/> 
 that stay open until the client closes them.<br/>
 	
 Surprise me:<br/>

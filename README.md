@@ -16,7 +16,7 @@
 - [ ] Website Performance Optimization
 - [ ] Friends App - real project!
 
-0.Git Basics<br/>
+<details><summary0.Git Basics<br/>/summary>
 =================
 New to me:<br/>
  + There are three main VCS (Version Control System).<br/>
@@ -33,6 +33,8 @@ I intend to use in the future:<br/>
 ![Git Basics](img/0_Git_Basics/Version_Control_with_Git.png)
 ![Git Basics](img/0_Git_Basics/Learn_Git_Branching_2.png)
 ![Git Basics](img/0_Git_Basics/Version_Control_with_Git.png)
+
+</details>
 
 
 1.Linux CLI, HTTP<br/>

@@ -17,10 +17,9 @@
 - [ ] Friends App - real project!
 
 <details><summary>
-0.Git Basics
+0.Git Basics<br/>
 =================
 </summary>
-=================
 New to me:<br/>
  + There are three main VCS (Version Control System).<br/>
  + Git, Subversion, Mercurial.<br/>

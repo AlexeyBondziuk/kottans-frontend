@@ -154,7 +154,7 @@ I intend to use in the future:<br/>
 <details><summary><strong>Screeenshots</strong></summary>
 <br/>
 
-![task_git_collaboration](img/2_GitHub_and_Collaboration/QGitHub_&_Collaboration.png)
+![task_git_collaboration](img/2_GitHub_and_Collaboration/GitHub_&_Collaboration.png)
 
 ![task_git_collaboration](img/2_GitHub_and_Collaboration/GitHub_&_Collaboration2.png)
 

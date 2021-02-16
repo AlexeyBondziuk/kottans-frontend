@@ -96,57 +96,56 @@ I intend to use in the future:<br/>
 New to me:<br/>
 
  - $ git shortlog  --  A quick way that we can see how many commits each contributor has added to the repository<br/>
-<br/>
+
  - $ git shortlog -s -n  -- to see just the number of commits that each developer has made, we can add a couple <br/>
 of flags: -s to show just the number of commits (rather than each commit's message) and -n to sort them numerically<br/>
-<br/>
+
  - $ git log --author=Surma  -- display all of the commits by an author<br/>
  - $ git log --author="Paul Lewis"<br/>
-<br/>
+
  - $ git log --grep=bug  -- filter down to just the commits that reference the word "bug"<br/>
  - $ git log --grep="border radius issue in Safari"<br/>
-<br/>
+
 To make a PR:<br/>
 	+ you must fork the source repository<br/>
 	+ clone your fork down to your machine<br/>
 	+ make some commits (ideally on a topic branch!)<br/>
 	+ push the commits back to your fork<br/>
 	+ create a new pull request and choose the branch that has your new commits<br/>
-<br/>
 
  - What might be confusing is that origin does not refer to the source repository (also known as the "original" <br/>
 repository) that we forked from. Instead, it's pointing to our forked repository. So even though it has the <br/>
 word origin is not actually the original repository.<br/>
-<br/>
+
  - $ git remote add upstream https://github.com/udacity/course-collaboration-travel-plans.git<br/>
-<br/>
+
  - $ git remote -v<br/>
-<br/>
+
  - $ git fetch upstream master<br/>
-<br/>
+
  - $ git rebase -i HEAD~3  -- Если нужно "объеденить n коммита в один", то количество "объединенных" коммитов <br/>
 равняется числу(n) после ~(n). Чтобы сохранить эти 3 коммита - можно создать ветку "backup" <br/>
 ($ git branch backup),а потом объединять.<br/>
-<br/>
+
  - $ git checkout -b foo o/main -- We will checkout a new branch named foo and set it to track main on the remote.<br/>
 or<br/>
  - $git branch -u o/main foo<br/>
-<br/>
+
  - $ git push origin main  -- запушили main в origin <br/>
-<br/>
+
  - $ git push origin <source>:<destination> == git push origin foo^:main --можно пушить одну ветку в другую,даже с другим именем<br/>
 (if the destination you want to push doesn't exist - give a branch name and git will create the branch on the remote).<br/>
-<br/>
+
  - $ git fetch origin foo~1: bar -- тоже самое, что и push <br/>
 (if the destination doesn't exist - Git made the destination locally before fetching) - как и в push <br/>
-<br/>
+
  - $ git push origin :foo  -- delete foo<br/>
-<br/>
+
  - & git fetch origin :bar  -- make a new branch<br/>
-<br/>
+
 Surprise me:<br/>
 - $ git push origin :foo  -- delete foo<br/>
-<br/>
+
  - & git fetch origin :bar  -- make a new branch<br/>
 
 I intend to use in the future:<br/>
@@ -155,11 +154,11 @@ I intend to use in the future:<br/>
 <details><summary><strong>Screeenshots</strong></summary>
 <br/>
 
-![task_git_collaboration](img/2_GitHub_and_Collaboration/QGitHub & Collaboration.png)
+![task_git_collaboration](img/2_GitHub_and_Collaboration/QGitHub_&_Collaboration.png)
 
-![task_git_collaboration](img/2_GitHub_and_Collaboration/GitHub & Collaboration2.png)
+![task_git_collaboration](img/2_GitHub_and_Collaboration/GitHub_&_Collaboration2.png)
 
-![task_git_collaboration](img/2_GitHub_and_Collaboration/Git upstream.png)
+![task_git_collaboration](img/2_GitHub_and_Collaboration/Git_upstream.png)
 
 
 </details>
